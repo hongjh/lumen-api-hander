@@ -13,3 +13,9 @@ $app->singleton(
     Hongjh\Exceptions\ApiHandler::class
 );
 ```
+
+### 开启调试模式
+``` 
+设置 .env APP_DEBUG=true, 并在
+在 HTTP 报头加上 Accept = text/html，会显示错误栈
+```
